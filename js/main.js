@@ -1,3 +1,11 @@
+window.onload = function () {
+    document.body.classList.add("loaded_hiding");
+    window.setTimeout(function () {
+        document.body.classList.add("loaded");
+        document.body.classList.remove("loaded_hiding");
+    }, 500);
+};
+
 document.addEventListener("DOMContentLoaded", function () {
     const loginBtn = document.querySelector(".main__info-link");
     const modal = document.getElementById("myModal");
