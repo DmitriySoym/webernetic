@@ -15,17 +15,27 @@
                         <p class="main__info-text">
                             За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить
                         </p>
-                        <a class="main__info-link" href="javascript:void(0);" role="button">
+                        <button class="main__info-link" href="javascript:void(0);" role="button">
                             <span class="main__info-link-text">Попробовать бесплатно</span>
                             <svg class="main__info-arrow">
                                 <use xlink:href="#arrow"></use>
                             </svg>
-                        </a>
+                        </button>
                     </div>
                 </div>
                 <div class="main__img">
                     <img src="./assets/image.jpg" alt="image" class="main__img-img" />
                 </div>
+            </div>
+
+            <div id="myModal" class="main__modal">
+                <button class="main__close" type="button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="main__modal-content"></div>
             </div>
         </div>
         <svg style="height: 0; width: 0; position: absolute; visibility: hidden">
@@ -34,5 +44,7 @@
                 <path d="M13 23L23 13" stroke="#1F4284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
             </symbol>
         </svg>
+
+        <script src="js/main.js"></script>
     </body>
 </html>
